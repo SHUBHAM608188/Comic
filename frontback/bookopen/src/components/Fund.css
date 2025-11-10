@@ -1,0 +1,18 @@
+.fund-summary {
+  display: flex;
+  justify-content: flex-end; /* aligns to the right */
+  gap: 40px; /* spacing between records & total */
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #5a0d4e;
+  font-weight: 600;
+}
+
+.fund-summary p {
+  margin: 0;
+  padding: 0;
+}
+
+.fund-summary strong {
+  color: #8a1d64; /* highlight the labels */
+}

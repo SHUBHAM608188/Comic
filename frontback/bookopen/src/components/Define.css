@@ -1,0 +1,246 @@
+.define-container {
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0;
+  font-family: "Playfair Display", serif;
+}
+
+.define-wrapper {
+  width: 90%;
+  max-width: 1950px;
+  background-color: rgba(255, 255, 255, 0.96);
+  border-radius: 30px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  padding: 30px 40px;
+}
+
+.define-title {
+  color: #5a0d4e;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.define-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.define-table th {
+  background-color: #5a0d4e;
+  color: white;
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-bottom: 2px solid #e58db5;
+  text-align: left;
+}
+
+.define-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #e3d3eb;
+  color: #333;
+}
+
+.define-table tr:hover {
+  background-color: #f3e2f7;
+}
+
+.cover-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #d3cce3;
+}
+
+.watch-btn {
+  background-color: #8a1d64;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.update-btn {
+  background-color: #5a0d4e;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #e93b75;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: #999;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-box {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  width: 500px;
+  max-width: 95%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.modal-box h2 {
+  color: #5a0d4e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #5a0d4e;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #e3d3eb;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.save-btn {
+  background-color: #8a1d64;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #e93b75;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.back-home-container {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.back-home-btn {
+  display: inline-block;
+  background-color: #5a0d4e;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.back-home-btn:hover {
+  background-color: #8a1d64;
+}
+
+.gallery-thumb {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #8a1d64;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.gallery-thumb:hover {
+  transform: scale(1.15);
+  border-color: #8a1d64;
+}
+
+
+
+/* 💰 Price badge */
+.price-badge {
+  background-color: #8a1d64;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.price-badge:hover {
+  background-color: #a02a7a;
+  transform: scale(1.05);
+}
+
+/* 📦 Quantity badge */
+.quantity-badge {
+  background-color: #8a1d64;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.quantity-badge:hover {
+  background-color: #a02a7a;
+  transform: scale(1.05);
+}
+
